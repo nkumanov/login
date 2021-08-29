@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <script src="./js/register.js" defer></script>
+</head>
+
+<body>
+    <section class="container">
+        <nav class="navigation">
+            <ul class="navigation-list">
+                <li>
+                    <a href="./index.html" id="login-nav" >Login</a>
+                </li>
+                <li>
+                    <a href="#" id="register-nav" class="active">Register</a>
+                </li>
+            </ul>
+        </nav>
+        <section class="content">
+            <div class="before-form-content">
+                <h2>Register</h2>
+                <p>Become a member</p>
+            </div>
+
+            <section class="form-section">
+                <h2>Register</h2>
+                <p>Find more about us</p>
+                
+                    <form action="#" method="" id="register">
+                        <div class="form-element">
+                            <label for="firstName"><span>First Name</span></label>
+                            <input type="text" id="firstName"
+                                name="fname" placeholder="First Name">
+                                
+                        </div>
+                        <div class="form-element">
+                            <label for="lastName"><span>Last Name</span></label>
+                            <input type="text" id="lastName"
+                                name="lastName" placeholder="Last Name">
+                                
+                        </div>
+                        <div class="form-element">
+                            <label for="email"><span>Email</span></label>
+                            <input type="text" id="userEmail"
+                                name="email" placeholder="Email">
+                                
+                        </div>
+                        <div class="form-element">
+                            <label for="password"><span>Password</span></label>
+                            <input type="password" id="userPassword"
+                                name="password" placeholder="Password">
+                                
+                        </div>
+                        <div class="form-element lineAfter">
+                            <label for="confirmPass"><span>Confirm Password</span></label>
+                            <input type="password" id="confirmPass"
+                                name="confirmPass" placeholder="Confirm Password">
+                                
+                        </div>
+                        
+                        <div class="form-element no-margin">
+                            <label for="terms"><input type="checkbox" id="terms"
+                                name="terms"><span>I hereby confirm that I have read, understood and accept the Terms and Conditions of HAPPs</span></label>
+                        </div>
+                        <div class="form-element no-margin">
+                            <label for="requirements"><input type="checkbox" id="requirements"
+                                name="requirements"><span>I hereby confirm that i meed the User requirements</span></label>
+                        </div>
+                        <div id="submit"><a href="#" id="registerSubmit" class="active">Register<i class="fa fa-paper-plane"></i></a></div>
+                        <div class="createAccount"><a href="#">Already a member? Login</a></div>
+                    </form>
+            </section>
+        </section>
+        <footer>
+            <div class="privacy">
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and conditions</a>
+            </div>
+            <div class="copyrights">
+                <p>Copyrights @2021</p>
+            </div>
+            <div class="links">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+        </footer>
+    </section>
+</body>
+
+</html>

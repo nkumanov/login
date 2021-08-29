@@ -1,0 +1,247 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-image: url('../images/bg-img.jpg');
+}
+.container{
+    
+    
+    width: 100%;
+    height: 100vh;
+    max-width: 1200px;
+    margin: 0 auto;
+
+}
+nav{
+    padding: 25px;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+
+.navigation-list{
+    list-style: none;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.navigation-list li a, #submit a{
+    margin: 25px;
+    text-decoration: none;
+    color: white;
+    border-radius: 50px;
+    padding: 5px 15px 5px 15px;
+    font-size: 15px;
+    border: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    
+}
+.active{
+    background: rgb(0,131,180);
+background: linear-gradient(90deg, rgba(0,131,180,1) 0%, rgba(0,255,196,1) 84%);
+
+}
+
+
+
+.before-form-content{
+    color: white;
+    margin-bottom: 15px;
+}
+.before-form-content p{
+    font-size: 20px;
+    
+}
+.form-section{
+    background-color: white;
+    border: 2px solid #03fcc2;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.form-section h2{
+    margin-bottom: 25px;
+}
+.form-section p{
+    margin-bottom: 15px;
+    
+}
+.form-section .welcome{
+    font-size: 35px;
+    margin: 35px;
+}
+i{
+    font-size: 25px;
+    color: black;
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 5px;
+    height: 35px;
+    width: 100%;
+}
+label i{
+    font-size: 18px;
+    padding: 8px;
+    background-color: #cccccc;
+}
+
+input{
+    width: 100%;
+    height: 100%;
+    border: 1px solid #cccccc;
+
+}
+form div{
+    display: flex;
+    width: 83%;
+    margin: 0 auto;
+    
+    margin-bottom: 15px;
+    flex-direction: column;
+}
+form div span a{
+    text-decoration: none;
+}
+
+#submit{
+    margin-top: 10px;
+    display: block;
+    width: max-content;
+}
+
+.createAccount a{
+    margin-top: 5px;
+    text-decoration: none;
+    color: #cccccc;
+    
+}
+.createAccount{
+    width: max-content;
+}
+#forgotPassword a{
+    text-decoration: none;
+    color: red;
+    font-size: 15px;
+    align-self: flex-end;
+}
+#validationError{
+    align-self: flex-start;
+    font-size: 16px;
+    color: red;
+}
+#submit i{
+    color: white;
+    font-size: 15px;
+    margin-left: 5px;
+}
+
+.form-element label{
+    justify-content: flex-start;
+    font-weight: bold;
+    width: max-content;
+}
+
+.form-element input{
+    height: 25px;
+}
+
+.form-element label input[type='checkbox']{
+    width: 15px;
+    margin-right: 5px;
+}
+
+.lineAfter::after{
+    content: '';
+    height: 2px;
+    display: block;
+    width: 95%;
+    margin: 10px auto;
+    background-color: #cccccc;
+}
+
+.no-margin{
+    margin-bottom: 0;
+}
+
+.no-margin label{
+    height: 20px;
+}
+
+
+
+.privacy{
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.privacy a{
+    text-decoration: none;
+    color: white;
+    font-size: 16px;
+    margin: 0 15px;
+}
+
+.copyrights{
+    display: flex;
+    justify-content: center;
+}
+.copyrights p{
+    font-size: 16px;
+    color: white;
+    margin: 0 15px;
+}
+
+.links{
+    margin-top: 15px;
+    display: flex;
+    justify-content: center;
+}
+
+.links i{
+    color: black;
+    margin: 6px;
+    padding: 7px;
+    border-radius: 15px;
+    background-color: white;
+    font-size: 25px;
+}
+
+.links i:hover{
+    background: rgb(0,131,180);
+    background: linear-gradient(90deg, rgba(0,131,180,1) 0%, rgba(0,255,196,1) 84%);
+
+}
+
+.copyrights::before{
+    content: '';
+    height: 2px;
+    display: block;
+    width: 35%;
+    margin: 10px auto;
+    background: rgb(0,131,180);
+}
+
+.copyrights::after{
+    content: '';
+    height: 2px;
+    display: block;
+    width: 35%;
+    margin: 10px auto;
+    background: rgb(0,131,180);
+}
